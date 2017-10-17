@@ -1,15 +1,7 @@
-
-export type Action =
-  { type: 'PUSH_NEW_ROUTE', route: string }
-    | { type: 'POP_ROUTE' }
-    | { type: 'POP_TO_ROUTE', route: string }
-    | { type: 'REPLACE_ROUTE', route: string }
-    | { type: 'REPLACE_OR_PUSH_ROUTE', route: string }
-    | { type: 'OPEN_DRAWER'}
-    | { type: 'CLOSE_DRAWER'}
-    | { type: 'SET_USER', name: string}
-    | { type: 'SET_LIST', list: string}
-
-export type Dispatch = (action:Action | Array<Action>) => any;
-export type GetState = () => Object;
-export type PromiseAction = Promise<Action>;
+export const GET_MOVIE = 'GET_MOVIE';
+export const ALPHABET_PRESSED = 'ALPHABET_PRESSED';
+export const DELETE_ANSWER_KEY = 'DELETE_ANSWER_KEY';
+export const VERIFY_ANSWER_WITH_ACTION = 'VERIFY_ANSWER_WITH_ACTION';
+export const REVEAL_ANSWER_KEY = 'REVEAL_ANSWER_KEY';
+export const GET_COINS = 'GET_COINS';
+export const UPDATE_COINS = 'UPDATE_COINS';

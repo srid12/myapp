@@ -1,0 +1,493 @@
+[
+  {
+    'movieName':'eega',
+    'cast':['nani','samanta','sudeep','rajamouli']
+  },
+  {
+    'movieName':'dhruva',
+    'cast':['ramcharan','rakul','arvindswamy','surenderreddy']
+  },
+  {
+    'movieName':'A AA',
+    'cast':['nithin','samanta','anupama','trivikram']
+  },
+  {
+    'movieName':'mirchi',
+    'cast':['prabhas','anushkashetty','richa','koratalasiva']
+  },
+  {
+    'movieName':'jalsa',
+    'cast':['pawankalyan','ileana','kamalini','trivikram']
+  },
+  {
+    'movieName':'oopiri',
+    'cast':['nagarjuna','karthi','tamanna','vamsipaidipally']
+  },
+  {
+    'movieName':'nenu sailaja',
+    'cast':['ram','keerthy','sathyaraj','pradeeprawat']
+  },
+  {
+    'movieName':'supreme',
+    'cast':['saidaram','rashikanna','kabirdulhansingh','rajendra']
+  },
+  {
+    'movieName':'gentleman',
+    'cast':['nani','nivedathomas','surabhi','srinivasavsarala']
+  },
+  {
+    'movieName':'jai lava kusa',
+    'cast':['jrntr','rashikanna','nivedathomas','hamsa']
+  },
+  {
+    'movieName':'paisa vasool',
+    'cast':['balayya','shreya','ali','puri']
+  },
+  {
+    'movieName':'oopiri',
+    'cast':['nagarjuna','karthi','tamanna','vamsipaidipally']
+  },
+  {
+    'movieName': 'fidaa',
+    'cast': ['varun', 'saipallavi', 'harshvardhan','shakarkammula']
+  },
+  {
+    'movieName': 'spyder',
+    'cast': ['maheshbabu','rakul','sayaji','murugadas']
+  },
+  {
+    'movieName': 'nenu local'
+  },
+  {
+    'movieName': 'temper',
+    'cast': ['jrntr', 'kajal', 'prakash', 'posani']
+  },
+  {
+    'movieName': 'manam',
+    'cast': ['nagarjuna', 'nagachaitanya', 'nageshwar', 'samanta']
+  },
+  {
+    'movieName': 'lie',
+    'cast': ['nithin', 'megha','arjun', 'srikanth']
+  },
+  {
+    'movieName': 'guru',
+    'cast': ['venkatesh','ritika', 'nasar', 'tanikella']
+  },
+  {
+    'movieName': 'julayi',
+    'cast': ['alluarjun','ileana','rajendra','trivikram']
+  },
+  {
+    'movieName': 'chakram',
+    'cast': ['prabhas', 'charmi', 'asin', 'prakash']
+  },
+  {
+     'movieName': 'okkadu',
+     'cast': ['maheshbabu', 'bhumika', 'prakash', 'gunasekhar']
+  },
+  {
+    'movieName': 'racha',
+    'cast': ['ramcharan', 'tamanna', 'kota', 'mukesh']
+  },
+  {
+    'movieName': 'premam',
+    'cast': ['nagachaitanya', 'shruthi', 'anupama', '']
+  },
+  {
+    'movieName': 'tulasi',
+    'cast': ['venkatesh', 'nayantara', 'ashish', 'ramyakrishna']
+  },
+  {
+    'movieName': 'simha',
+    'cast': ['balayya', 'nayantara', 'snehaullal','namitha']
+  },
+  {
+    'movieName': 'kick',
+    'cast': ['raviteja', 'ileana', 'shaam','brahmi']
+  },
+  {
+    'movieName': 'hyper',
+    'cast': ['ram', 'rashikanna', 'sathyaraj', 'naresh']
+  },
+  {
+    'movieName': 'ishq',
+    'cast': ['nithin','nitya', 'ali', 'ajay']
+  },
+  {
+    'movieName': 'adhurs',
+    'cast': ['jrntr','nayantara', 'brahmi', 'sheela']
+  },
+  {
+    'movieName': 'devadasu',
+    'cast': ['ram', 'ileana','sayaji','msnarayana']
+  },
+  {
+    'movieName': 'aata',
+    'cast': ['siddharth', 'ileana', 'sunil', 'brahmi']
+  },
+  {
+    'movieName': 'jil',
+    'cast': ['gopichand', 'rashikanna', 'kabirdulhansingh', 'posani']
+  },
+  {
+   'movieName': 'kanche',
+   'cast': ['varun', 'pragya', 'srinivasavasarala', 'nikitin']
+ },
+ {
+   'movieName': 'indra',
+   'cast': ['chiru', 'sonali', 'arti', 'mukesh']
+ },
+ {
+   'movieName': 'sudigaadu',
+   'cast': ['allarinaresh', 'monal', 'jayaprakash', 'kovai']
+ },
+ {
+   'movieName': 'sankranti',
+   'cast': ['venkatesh', 'srikanthsr', 'sneha', 'sharvanand']
+ },
+ {
+   'movieName': 'billa',
+   'cast': ['prabhas', 'anushkashetty', 'namitha', 'krishnamraju']
+ },
+ {
+   'movieName': 'vedam',
+   'cast': ['alluarjun', 'anushkashetty', 'manoj','deeksha']
+ },
+ {
+   'movieName': 'king',
+   'cast': ['nagarjuna', 'trisha', 'srihari', 'brahmi']
+ },
+ {
+   'moviename': 'annamayya',
+   'cast': ['nagarjuna', 'ramyakrishna','suman', 'kasturi']
+ },
+ {
+   'movieName': 'super',
+   'cast': ['nagarjuna', 'ayesha', 'anushkashetty','sonusood']
+ },
+ {
+   'movieName': 'don',
+   'cast': ['nagarjuna', 'anushkashetty', 'lawrence', 'kelly']
+ },
+ {
+   'movieName': 'ragada',
+   'cast': ['nagarjuna', 'anushkashetty', 'priyamani', 'brahmi']
+ },
+ {
+   'movieName': 'veera',
+   'cast': ['raviteja', 'kajal','tapsi', 'brahmi']
+ },
+ {
+   'movieName': 'power',
+   'cast': ['raviteja', 'hansika', 'regina', 'mukesh']
+ },
+ {
+   'movieName': 'daruvu',
+   'cast': ['raviteja', 'tapsi', 'prabhu', 'sushantsingh']
+ },
+ {
+   'movieName': 'neninthe',
+   'cast': ['raviteja', 'subbaraju', 'sayaji', 'brahmi']
+ },
+ {
+   'movieName': 'nippu',
+   'cast': ['raviteja', 'deeksha', 'srikanth', 'pradeeprawat']
+ },
+ {
+   'movieName': 'vasu',
+   'cast': ['venkatesh','bhumika', 'sunil', 'trivikram']
+ },
+ {
+   'movieName': 'vasantam',
+   'cast': ['venkatesh', 'arti', 'akash', 'sunil']
+ },
+ {
+   'movieName': 'masala',
+   'cast': ['venkatesh', 'ram','anjali', 'shazahn']
+ },
+ {
+   'movieName': 'raja',
+   'cast': ['venkatesh', 'soundarya', 'sudhakar', 'abbas']
+ },
+ {
+   'movieName': 'drushyam',
+   'cast': ['venkatesh', 'meena', 'nadiya', 'naresh']
+ },
+ {
+   'movieName': 'loukyam',
+   'cast': ['gopichand', 'rakul', 'sampath', 'chandramohan']
+ },
+ {
+   'movieName': 'sahasam',
+   'cast': ['gopichand', 'tapsi', 'suman', 'shaktikapoor']
+ },
+ {
+   'movieName': 'souryam',
+   'cast': ['gopichand', 'anushkashetty', 'ali', 'poonam']
+ },
+ {
+   'movieName': 'varsham',
+   'cast': ['prabhas', 'gopichand', 'trisha', 'prakash']
+ },
+ {
+   'moovieName': 'lakshyam',
+   'cast': ['gopichand', 'anushkashetty', 'jagapati', 'ali']
+ },
+ {
+   'movieName': 'ontari',
+   'cast': ['gopichand', 'bhavana', 'ashish', 'rajeevkankala']
+  },
+ {
+   'movieName': 'jayam',
+   'cast': ['nithin', 'sada', 'gopichand', 'teja']
+ },
+ {
+   'movieName': 'dictator',
+   'cast': ['balayya']
+ },
+ {
+   'movieName': 'legend',
+   'cast': ['balayya']
+ },
+ {
+   'movieName': 'kushi',
+   'cast':['pawankalyan', 'bhumika']
+ },
+ {
+   'movieName': 'panjaa',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'teen maar',
+   'cast':['pawankalyan', 'trisha']
+ },
+ {
+   'movieName': 'thammudu',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'tholi prema',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'badri',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'bangaram',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'johnny',
+   'cast':['pawankalyan']
+ },
+ {
+   'movieName': 'dookudu',
+   'cast':['maheshbabu', 'samanta', 'prakash', 'trivikram']
+ },
+ {
+   'movieName': 'aagadu',
+   'cast':['maheshbabu', 'tamanna','sonusood','rajendraprasad']
+ },
+ {
+   'movieName': 'pokiri',
+   'cast':['maheshbabu', 'ileana', 'prakash', 'ashish']
+ },
+ {
+   'movieName': 'khaleja',
+   'cast':['maheshbabu', 'anushkashetty', 'prakash','trivikram']
+ },
+ {
+   'movieName': 'murari',
+   'cast':['maheshbabu', 'sonali']
+ },
+ {
+   'movieName': 'athadu',
+   'cast':['maheshbabu','trisha','kota','trivikram']
+ },
+ {
+   'movieName': 'arjun',
+   'cast':['maheshbabu', 'shreya','prakash', 'keerthireddy']
+ },
+ {
+   'movieName': 'athidhi',
+   'cast':['maheshbabu','amrita', 'brahmi','prakash']
+ },
+ {
+   'movieName': 'sainikudu',
+   'cast':['maheshbabu','trisha', 'prakash','irfan']
+ },
+ {
+   'movieName': 'baadshah',
+   'cast':['jrntr', 'kajal','navdeep', 'kelly']
+ },
+ {
+   'movieName': 'dhammu',
+   'cast':['jrntr', 'trisha', 'karthika', 'boyapati']
+ },
+ {
+   'movieName': 'shakti',
+   'cast':['jrntr', 'ileana', 'prabhu', 'manjari']
+ },
+ {
+   'movieName': 'simhadri',
+   'cast':['jrntr', 'bhumika', 'mukesh', 'rajamouli']
+ },
+ {
+   'movieName': 'rakhi',
+   'cast':['jrntr', 'ileana', 'charmi', 'prakash']
+ },
+ {
+   'movieName': 'aadi',
+   'cast':['jrntr', 'keertichawla', 'rajandev', 'vvvinayak']
+ },
+ {
+   'movieName': 'kantri',
+   'cast':['jrntr', 'prakash', 'hansika', 'meherramesh']
+ },
+ {
+   'movieName': 'ashok',
+   'cast':['jrntr','sameera','prakash','rajeevkankala']
+ },
+ {
+   'movieName': 'samba',
+   'cast':['jrntr', 'bhumika', 'genelia', 'prakash']
+ },
+ {
+   'movieName': 'rabhasa',
+   'cast':['jrntr', 'samanta', 'pranitha', 'brahmi']
+ },
+ {
+   'movieName': 'yamadonga',
+   'cast':['jrntr', 'priyamani','mohanbabu', 'rajamouli']
+ },
+ {
+   'movieName': 'rebel',
+   'cast':['prabhas', 'tamanna', 'deeksha','krishnamraju']
+ },
+ {
+   'movieName': 'yogi',
+   'cast':['prabhas','nayantara', 'pradeeprawat', 'kota']
+ },
+ {
+   'movieName': 'pournami',
+   'cast':['prabhas', 'trisha', 'charmi','rahuldev']
+ },
+ {
+   'movieName': 'munna',
+   'cast':['prabhas', 'ileana','prakash', 'kota']
+ },
+ {
+   'movieName': 'darling',
+   'cast':['prabhas', 'kajal', 'prabhu','ahuti']
+ },
+ {
+   'movieName': 'bujjigadu',
+   'cast':['prabhas', 'trisha', 'mohanbabu','kota']
+ },
+ {
+   'movieName': 'arya',
+   'cast':['alluarjun']
+ },
+ {
+   'movieName': 'arya2',
+   'cast':['alluarjun', 'kajal', 'navdeep']
+ },
+ {
+   'movieName': 'bunny',
+   'cast':['alluarjun']
+ },
+ {
+   'movieName': 'varudu',
+   'cast':['alluarjun']
+ },
+ {
+   'movieName': 'parugu',
+   'cast':['alluarjun']
+ },
+ {
+   'movieName': 'happy',
+   'cast':['alluarjun', 'genelia']
+ },
+ {
+   'movieName': 'tadakha',
+   'cast':['nagachaitanya', 'tamanna', 'sunil']
+ },
+ {
+   'movieName': 'dochay',
+   'cast':['nagachaitanya']
+ },
+ {
+   'movieName': 'dhada',
+   'cast':['nagachaitanya', 'kajal']
+ },
+ {
+   'movieName': 'josh',
+   'cast':['nagachaitanya']
+ },
+ {
+   'movieName': 'yevadu',
+   'cast':['ramcharan']
+ },
+ {
+   'movieName': 'zanzeer',
+   'cast':['ramcharan']
+ },
+ {
+   'movieName': 'orange',
+   'cast':['ramcharan','genelia']
+ },
+ {
+   'movieName': 'naayak',
+   'cast':['ramcharan']
+ },
+ {
+   'movieName': 'tagore',
+   'cast':['chiru', 'shreya', 'sayaji', 'prakash']
+ },
+ {
+   'movieName': 'anji',
+   'cast':['chiru']
+ },
+ {
+   'movieName': 'stalin',
+   'cast':['chiru']
+ },
+ {
+   'movieName': 'hitler',
+   'cast':['chiru', 'rajendraprasad']
+ },
+ {
+   'movieName': 'mogudu',
+   'cast':['gopichand', 'tapsi']
+ },
+ {
+   'movieName': 'gamyam',
+   'cast':['sharvanand', 'allarinaresh', 'kamalini']
+ },
+ {
+   'movieName': 'khadgam',
+   'cast':['raviteja', 'prakash', 'srikanthsr']
+ },
+ {
+   'movieName': 'shridi sai',
+   'cast':['nagarjuna']
+ },
+ {
+   'movieName': 'majnu',
+   'cast':['nani']
+ },
+ {
+   'movieName': 'paisa',
+   'cast':['nani']
+ },
+ {
+   'movieName': 'loafer',
+   'cast':['varun']
+ },
+ {
+   'movieName': 'krishna',
+   'cast':['raviteja', 'trisha']
+ }
+]

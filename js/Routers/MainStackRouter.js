@@ -1,15 +1,52 @@
-import React, { Component } from "react";
-import Login from "../components/login/";
-import Home from "../components/home/";
-import BlankPage from "../components/blankPage";
-import HomeDrawerRouter from "./HomeDrawerRouter";
-import { StackNavigator } from "react-navigation";
-import { Header, Left, Button, Icon, Body, Title, Right } from "native-base";
-HomeDrawerRouter.navigationOptions = ({ navigation }) => ({
-  header: null
-});
-export default (StackNav = StackNavigator({
-  Login: { screen: Login },
-  Home: { screen: Home },
-  BlankPage: { screen: BlankPage }
-}));
+import React, { Component } from 'react';
+import { Scene, Stack, Router } from 'react-native-router-flux';
+import MoviePage from "../components/MoviePage/";
+
+class RouterComponent extends Component {
+  render() {
+  return (
+    <Router sceneStyle={{  }}>
+    <Stack key="root">
+       <Scene
+        key="MoviePage"
+        initial
+        component={MoviePage}
+        title="0"
+        rightTitle="0 coins"
+        titleStyle={styles.titleStyle}
+        navigationBarStyle={styles.navigationBarStyle}
+        rightButtonTextStyle={styles.rightTitleStyle}
+        onRight={() => console.log('hi')}
+       />
+     </Stack>
+    </Router>
+  );
+}
+}
+
+const styles = {
+  navigationBarStyle: {
+    backgroundColor: 'green'
+  },
+  titleStyle: {
+    color: 'gold',
+    fontWeight: '900',
+    fontSize: 30,
+    alignSelf: 'center',
+    paddingTop: 3
+  },
+  rightButtonIconStyle: {
+    width: 30,
+    height: 30,
+    marginBottom: 20,
+    backgroundColor: 'red'
+  },
+  rightTitleStyle: {
+    marginRight: 5,
+    color: 'gold',
+    fontSize: 20,
+    fontWeight: '500'
+  }
+};
+
+export default RouterComponent;
