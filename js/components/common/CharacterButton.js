@@ -1,5 +1,9 @@
 import React from 'react';
+const ReactNative = require('react-native');
+const { Dimensions } = ReactNative;
 import { TouchableOpacity, Text } from 'react-native';
+const deviceWidth = Dimensions.get('window').width;
+const deviceHeight = Dimensions.get('window').height;
 
 const CharacterButton = (
     { disabled,
@@ -28,8 +32,8 @@ const CharacterButton = (
 
 const buttonStyle = (disabled, displaySpace, type, wrong) => {
   const z = {
-              width: 35,
-              height: 35,
+              width: deviceWidth/11,
+              height: deviceHeight/19,
               flexDirection: 'column',
               alignItems: 'center',
               backgroundColor: '#fff',
@@ -70,10 +74,10 @@ const styles = {
   textStyle: {
     alignSelf: 'center',
     color: '#007aff',
-    fontSize: 20,
+    fontSize: 18,
     fontWeight: '600',
-    paddingTop: 2,
-    paddingBottom: 2
+    paddingTop: 1,
+    paddingBottom: 1
   },
   textStyleDisabled: {
     alignSelf: 'center',

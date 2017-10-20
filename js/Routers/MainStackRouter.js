@@ -29,20 +29,24 @@ const styles = {
     backgroundColor: 'green'
   },
   titleStyle: {
+    marginLeft: 56,
     color: 'gold',
     fontWeight: '900',
     fontSize: 30,
     alignSelf: 'center',
-    paddingTop: 3
+    paddingTop: 3,
+    justifyContent: 'space-between',
+    textAlign: 'center'
+
   },
-  rightButtonIconStyle: {
-    width: 30,
-    height: 30,
-    marginBottom: 20,
-    backgroundColor: 'red'
-  },
+  // rightButtonIconStyle: {
+  //   width: 30,
+  //   height: 30,
+  //   marginBottom: 20,
+  //   backgroundColor: 'red'
+  // },
   rightTitleStyle: {
-    marginRight: 5,
+    marginRight: 1,
     color: 'gold',
     fontSize: 20,
     fontWeight: '500'

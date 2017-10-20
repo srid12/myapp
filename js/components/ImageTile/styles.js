@@ -11,7 +11,8 @@ export default {
     borderColor: 'white',
     borderRadius: 4,
     flex: 0.5,
-    height: deviceHeight/4.5
+    height: deviceHeight/4.5,
+    resizeMode: 'contain'
   },
   TileStyle: {
     alignItems: 'center',
