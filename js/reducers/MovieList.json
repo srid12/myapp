@@ -5,7 +5,7 @@
   },
   {
     'movieName':'dhruva',
-    'cast':['ramcharan','rakul','arvindswamy','surenderreddy']
+    'cast':['ramcharan','rakul','arvindswamy','navdeep']
   },
   {
     'movieName':'A AA',
@@ -29,7 +29,7 @@
   },
   {
     'movieName':'supreme',
-    'cast':['saidaram','rashikanna','kabirdulhansingh','rajendra']
+    'cast':['saidaram','rashikanna','kabirdulhansingh','rajendraprasad']
   },
   {
     'movieName':'gentleman',
@@ -49,14 +49,11 @@
   },
   {
     'movieName': 'fidaa',
-    'cast': ['varun', 'saipallavi', 'harshvardhan','shakarkammula']
+    'cast': ['varun', 'saipallavi', 'harshvardhan','shekarkammula']
   },
   {
     'movieName': 'spyder',
     'cast': ['maheshbabu','rakul','sayaji','murugadas']
-  },
-  {
-    'movieName': 'nenu local'
   },
   {
     'movieName': 'temper',
@@ -64,7 +61,7 @@
   },
   {
     'movieName': 'manam',
-    'cast': ['nagarjuna', 'nagachaitanya', 'nageshwar', 'samanta']
+      'cast': ['nagarjuna', 'nagachaitanya', 'nageshwar', 'samanta']
   },
   {
     'movieName': 'lie',
@@ -76,7 +73,7 @@
   },
   {
     'movieName': 'julayi',
-    'cast': ['alluarjun','ileana','rajendra','trivikram']
+    'cast': ['alluarjun','ileana','rajendraprasad','trivikram']
   },
   {
     'movieName': 'chakram',
@@ -216,7 +213,7 @@
  },
  {
    'movieName': 'loukyam',
-   'cast': ['gopichand', 'rakul', 'sampath', 'chandramohan']
+   'cast': ['gopichand', 'rakul', 'sampath', 'brahmi']
  },
  {
    'movieName': 'sahasam',
@@ -244,15 +241,15 @@
  },
  {
    'movieName': 'dictator',
-   'cast': ['balayya']
+   'cast': ['balayya', 'anjali']
  },
  {
    'movieName': 'legend',
-   'cast': ['balayya']
+   'cast': ['balayya', 'radhika', 'jagapati', 'brahmi']
  },
  {
    'movieName': 'kushi',
-   'cast':['pawankalyan', 'bhumika']
+   'cast':['pawankalyan', 'bhumika', 'ali']
  },
  {
    'movieName': 'panjaa',
@@ -260,27 +257,27 @@
  },
  {
    'movieName': 'teen maar',
-   'cast':['pawankalyan', 'trisha']
+   'cast':['pawankalyan', 'trisha', 'kritikharbanda', 'ali']
  },
  {
    'movieName': 'thammudu',
-   'cast':['pawankalyan']
+   'cast':['pawankalyan', 'preeti', 'ali', 'achyuth']
  },
  {
    'movieName': 'tholi prema',
-   'cast':['pawankalyan']
+   'cast':['pawankalyan', 'keerthireddy','ali', 'venu']
  },
  {
    'movieName': 'badri',
-   'cast':['pawankalyan']
+   'cast':['pawankalyan', 'ameesha', 'renu', 'prakash']
  },
  {
    'movieName': 'bangaram',
-   'cast':['pawankalyan']
+   'cast':['pawankalyan', 'meera', 'reema', 'mukesh']
  },
  {
    'movieName': 'johnny',
-   'cast':['pawankalyan']
+   'cast':['pawankalyan', 'renu', 'ali', 'msnarayana']
  },
  {
    'movieName': 'dookudu',
@@ -404,31 +401,31 @@
  },
  {
    'movieName': 'parugu',
-   'cast':['alluarjun']
+   'cast':['alluarjun', 'sheela', 'prakash', 'sunil']
  },
  {
    'movieName': 'happy',
-   'cast':['alluarjun', 'genelia']
+   'cast':['alluarjun', 'genelia', 'manojbajpayee', 'venu']
  },
  {
    'movieName': 'tadakha',
-   'cast':['nagachaitanya', 'tamanna', 'sunil']
+   'cast':['nagachaitanya', 'tamanna', 'sunil', 'ashutosh']
  },
  {
    'movieName': 'dochay',
-   'cast':['nagachaitanya']
+   'cast':['nagachaitanya', 'kritisanon', 'posani', 'brahmi']
  },
  {
    'movieName': 'dhada',
-   'cast':['nagachaitanya', 'kajal']
+   'cast':['nagachaitanya', 'kajal', 'kelly', 'brahmi']
  },
  {
    'movieName': 'josh',
-   'cast':['nagachaitanya']
+   'cast':['nagachaitanya', 'karthika', 'prakash', 'brahmi']
  },
  {
    'movieName': 'yevadu',
-   'cast':['ramcharan']
+   'cast':['ramcharan', 'shruthi', 'amy', 'brahmi']
  },
  {
    'movieName': 'zanzeer',
@@ -460,7 +457,7 @@
  },
  {
    'movieName': 'mogudu',
-   'cast':['gopichand', 'tapsi']
+   'cast':['gopichand', 'tapsi', 'rajendraprasad', 'roja']
  },
  {
    'movieName': 'gamyam',
@@ -468,11 +465,11 @@
  },
  {
    'movieName': 'khadgam',
-   'cast':['raviteja', 'prakash', 'srikanthsr']
+   'cast':['raviteja', 'prakash', 'srikanthsr', 'sonali']
  },
  {
-   'movieName': 'shridi sai',
-   'cast':['nagarjuna']
+   'movieName': 'shirdi sai',
+   'cast':['nagarjuna','srihari', 'srikanthsr', 'tanikella']
  },
  {
    'movieName': 'majnu',

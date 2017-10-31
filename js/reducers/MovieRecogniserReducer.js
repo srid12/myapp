@@ -16,8 +16,8 @@ export default (state = INITIAL_STATE, action) => {
       const movie = _.toUpper(MovieList[action.payload].movieName).split('');
       let alphabets = [];
       let z = [];
-      if (movie.length <= 15) {
-        const requiredLength = 20 - movie.length;
+      if (movie.length <= 10) {
+        const requiredLength = 10 - movie.length;
         z = _.sampleSize(ALPHABETS_LIST, requiredLength);
       }
       const movieWithoutSpaces = _.filter(movie, (character) => character !== ' ');
@@ -38,7 +38,7 @@ export default (state = INITIAL_STATE, action) => {
         };
       });
       Actions.refresh({title: `Q:${action.payload + 1}`})
-      return { movie: MovieList[action.payload], alphabets, answer };
+      return { movie: MovieList[action.payload], alphabets, answer, qNo:  action.payload + 1};
   }
 
     case ALPHABET_PRESSED: {

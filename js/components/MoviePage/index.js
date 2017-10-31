@@ -33,22 +33,32 @@ AdMobRewarded.setAdUnitID('ca-app-pub-3940256099942544/1033173712');
 AdMobInterstitial.setTestDevices(['EMULATOR']);
 AdMobInterstitial.setAdUnitID('ca-app-pub-3940256099942544/4411468910');
 AdMobInterstitial.addEventListener('adLoaded',
-   () => console.log('AdMobInterstitial adLoaded')
+   () => {
+    //  console.log('AdMobInterstitial adLoaded')
+   }
  );
  AdMobInterstitial.addEventListener('adFailedToLoad',
-   (error) => console.warn(error)
+   (error) => {
+    //  console.warn(error)
+   }
  );
  AdMobInterstitial.addEventListener('adOpened',
-   () => console.log('AdMobInterstitial => adOpened')
+   () => {
+    //  console.log('AdMobInterstitial => adOpened')
+   }
  );
  AdMobInterstitial.addEventListener('adClosed',
    () => {
-     console.log('AdMobInterstitial => adClosed');
-     AdMobInterstitial.requestAd().catch(error => console.warn(error));
-   }
+    //  console.log('AdMobInterstitial => adClosed');
+     AdMobInterstitial.requestAd().catch(error => {
+      //  console.warn(error)});
+   })
+ }
  );
  AdMobInterstitial.addEventListener('adLeftApplication',
-   () => console.log('AdMobInterstitial => adLeftApplication')
+   () => {
+    //  console.log('AdMobInterstitial => adLeftApplication')
+   }
  );
 
 
@@ -69,35 +79,51 @@ componentWillUnmount() {
 componentDidMount(){
   AdMobRewarded.addEventListener('adClosed',
    () => {
-     console.log('AdMobRewarded => adClosed');
-     AdMobRewarded.requestAd().catch(error => console.warn(error));
+    //  console.log('AdMobRewarded => adClosed');
+     AdMobRewarded.requestAd().catch(error => {
+      //  console.warn(error)
+     }
+   );
    }
   );
 
   AdMobRewarded.addEventListener('rewarded',
-       (reward) => {console.log('AdMobRewarded => rewarded', reward);
+       (reward) => {
+        // console.log('AdMobRewarded => rewarded', reward);
        this.props.updateCoins(60);
       }
      );
 
   AdMobRewarded.addEventListener('adLoaded',
-   () => console.log('AdMobRewarded => adLoaded')
+   () => {
+    //  console.log('AdMobRewarded => adLoaded');
+   }
   );
   AdMobRewarded.addEventListener('adFailedToLoad',
-   (error) => console.warn(error)
+   (error) => {
+    //  console.warn(error)
+   }
   );
   AdMobRewarded.addEventListener('adOpened',
-   () => console.log('AdMobRewarded => adOpened')
+   () => {
+    //  console.log('AdMobRewarded => adOpened')
+   }
   );
   AdMobRewarded.addEventListener('videoStarted',
-   () => console.log('AdMobRewarded => videoStarted')
+   () => {
+    //  console.log('AdMobRewarded => videoStarted')
+   }
   );
 
   AdMobRewarded.addEventListener('adLeftApplication',
-   () => console.log('AdMobRewarded => adLeftApplication')
+   () => {
+    //  console.log('AdMobRewarded => adLeftApplication')
+   }
   );
 
-  AdMobRewarded.requestAd().catch(error => console.warn(error));
+  AdMobRewarded.requestAd().catch(error => {
+    // console.warn(error)
+  });
 
 }
 
@@ -107,7 +133,9 @@ componentDidMount(){
     this.props.getCoins();
   }
   onLevelUp() {
-    this.showInterstitial();
+    if(this.props.qNo%5 === 0){
+      this.showInterstitial();
+    }
     this.props.getMovie();
   }
 
@@ -272,10 +300,10 @@ componentDidMount(){
 }
 
 const mapStateToProps = ({ movieRecogniser, coinState }) => {
-  const { movie, alphabets, answer } = movieRecogniser;
+  const { movie, alphabets, answer, qNo } = movieRecogniser;
   const {coins} = coinState;
   return {
-    movie, alphabets, answer, coins
+    movie, alphabets, answer, coins, qNo
   };
 };
 

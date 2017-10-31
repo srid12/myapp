@@ -2,6 +2,7 @@ import React from 'react';
 import { Text, View, Modal } from 'react-native';
 import { CardSection } from './CardSection';
 import { Button } from './Button';
+// import { Button } from "native-base";
 
 const Confirm = ({ children, visible, onAccept, onDecline }) => {
   const { containerStyle, textStyle, cardSectionStyle } = styles;
@@ -18,8 +19,8 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
       </CardSection>
 
       <CardSection style={cardSectionStyle}>
-        <Button onPress={onAccept}>Yes</Button>
-        <Button onPress={onDecline}>No</Button>
+        <Button full success onPress={onAccept}>Yes</Button>
+        <Button full danger onPress={onDecline}>No</Button>
       </CardSection>
     </View>
    </Modal>
@@ -29,7 +30,8 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
 const styles = {
   cardSectionStyle: {
     justifyContent: 'center',
-    backgroundColor: '#ddd',
+    // backgroundColor: '#ddd',
+    backgroundColor: 'skyblue'
   },
   textStyle: {
     flex: 1,
