@@ -260,6 +260,16 @@ componentDidMount(){
     }
     return <ImageTile cast={this.props.movie.cast} />;
   }
+
+  renderHelp() {
+      if (_.isEmpty(this.props.movie)) {
+        return;
+      }
+      return <TouchableOpacity onPress={this.showConfirmModal.bind(this)}>
+              <Icon name="help" style={styles.IconStyle} />
+              </TouchableOpacity>
+  }
+
   render() {
     return(
       <Image style={styles.ImageContainer}  source={require('../assets/blue.png')}>
@@ -269,9 +279,8 @@ componentDidMount(){
 
             <CardSection>
                 {this.renderAnswer()}
-                <TouchableOpacity onPress={this.showConfirmModal.bind(this)}>
-                    <Icon name="help" style={styles.IconStyle} />
-                </TouchableOpacity>
+                {this.renderHelp()}
+
             </CardSection>
 
             <CardSection style={styles.AlphabetStyle}>
